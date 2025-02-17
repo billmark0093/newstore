@@ -1,53 +1,32 @@
-# Art Waves
 
-Developed a responsive e-commerce platform for "Art Waves," a digital art marketplace, using ReactJS. The website allows artists to showcase and sell their digital artwork, while customers can browse, purchase, and securely checkout.
+# Hardhat-Tailwind-React Ethers Starter Kit
+Speedily develope your decentralized application with this starter kit for free!
 
-## Tech Stack
+Follow the steps below to download, install, and run this project.
 
-- Frontend: React.js, HTML, CSS
-- Backend: MockBee
-- Payment Integration: Razorpay
-- Deployment: Netlify
-- Other Libraries and Tools: React Router, Axios, JWT, etc.
+## Dependencies
+Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
+- NPM: https://nodejs.org
+- Hardhat: https://hardhat.org/
+- EthersJs: https://ethers.org/
+- Tailwind CSS: https://tailwindcss.com/
 
-## Features
 
-- Authentication
-  - Login
-  - Logout
-  - Signup
-- Product Listing
-- Filter Products by
-  - Category
-  - Discount
-  - Price
-  - Rating
-- Cart Management
-- Wishlist Management
-- Search by
-  - Product Name
-  - Category
-- Address Management
-- Single Product Page
-- Loading & Alerts
-- User Profile Page
-- Checkout
-- Order Summary
-- Order History
-- Apply Coupons
-- Payment Integration
-- Responsive
+## Step 1. Clone the project
+`git clone https://github.com/Daltonic/tailwind_ethers_starter_kit <PROJECT NAME>`
 
-## Run Locally
-
-Install dependencies
-
-```bash
-  npm install
+## Step 2. Install dependencies
+```sh
+$ cd <PROJECT NAME>
+$ yarn install # or npm install
+```
+## Step 3. Start Hardhat Node
+Open the terminal and run the command below.
+```sh
+$ yarn hardhat node
 ```
 
-Start the server
+## Step 4. Run the Front End Application
+`$ yarn start`
+Visit this URL in your browser: http://localhost:3000
 
-```bash
-  npm run start
-```
